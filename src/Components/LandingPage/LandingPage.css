@@ -1,0 +1,51 @@
+.main-landing-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-content-div {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 50px;
+    margin-block: 20px 60px;
+    align-self: center;
+}
+
+.product-div {
+    display: flex;  
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.product-div p {
+    margin: 0;
+    padding: 0;
+}
+
+.item-img {
+    height: 220px;
+}
+
+.button-icon {
+    display: flex;
+    flex-direction: row;
+    padding-inline: 10px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.item-button {
+    height: 35px;
+    width: 110px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}

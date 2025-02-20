@@ -1,0 +1,23 @@
+.main-navbar-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 100px;
+}
+
+.right-div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.navbar-links {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    padding: 0px;
+    color: #00678a;
+    text-decoration: none;
+    cursor: pointer;
+}

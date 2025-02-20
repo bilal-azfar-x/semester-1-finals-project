@@ -1,0 +1,64 @@
+.main-cart-div {
+    justify-self: center;
+    text-align: left;
+    margin-block: 10px 50px;
+}
+
+.cart-product-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.all-cart-divs {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.product-div-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.cart-text p {
+    margin: 0;
+    padding: 0;
+}
+
+.cart-item-img {
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+}
+
+.cart-remove-button {
+    background-color: white;
+    color: rgb(255, 69, 69);
+    border: none;
+    font-family: "Poppins-Medium";
+    cursor: pointer;
+}
+
+.cart-total-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.cart-checkout-button {
+    background-color: black;
+    color: white;
+    width: 600px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-family: "Poppins-Medium";
+    cursor: pointer;
+}
